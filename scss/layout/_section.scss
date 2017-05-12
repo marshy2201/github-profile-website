@@ -1,0 +1,47 @@
+﻿
+section {
+    padding: 48px 1em;
+
+    p {
+        line-height: 1.5;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            max-width: 225px;
+            border-radius: 50%;
+            margin: 48px 0;
+            box-shadow: 0 0 5px #000;
+        }
+    }
+
+    li {
+        list-style: none;
+        background-color: #ddd;
+        margin-bottom: 10px;
+
+        &:hover {
+            background-color: #aaa;
+        }
+        
+        a {
+            padding: 10px;
+            display: block;
+        }
+    }
+
+    ul {
+        margin: 24px 0;
+        padding: 0;
+    }
+
+    h2 {
+        text-decoration: underline;
+        text-transform: capitalize;
+    }
+}  
+
